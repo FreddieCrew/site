@@ -1,0 +1,45 @@
+html,
+        body {
+            min-height: 100%;
+        }
+
+        body {
+            background: #262626;
+            font-family: "sans-serif" sans-serif;
+        }
+
+        .main-container h2 {
+            text-align: center;
+            color: #fff;
+            font-size: 25px;
+        }
+
+        .main-container hr {
+            display: block;
+            margin: 0 auto;
+            left: 50%;
+            right: 50%;
+            color: #CDCACA;
+            width: 30%;
+        }
+
+        #git {
+            color: white;
+            font-size: 35px;
+            cursor: pointer;
+        }
+
+        #git:hover {
+            opacity: 50%;
+            transform: scale(1.3);
+            transition: all 500ms ease-in-out;
+        }
+
+        .footer {
+            position: fixed;
+            left: 0;
+            bottom: 0;
+            width: 100%;
+            text-align: center;
+            padding: 10px;
+        }
