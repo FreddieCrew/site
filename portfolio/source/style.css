@@ -1,0 +1,92 @@
+html,
+body {
+    min-height: 100%;
+}
+
+body {
+    background: #fff;
+    min-height: 100%;
+    min-width: 100%;
+    margin: 0 auto;
+    text-overflow: auto;
+    overflow: auto;
+    overflow-x: hidden;
+}
+
+.header {
+    position: absolute;
+    top: 0; 
+    bottom: 0;
+    left: 0; 
+    right: 0;
+    margin: 0 auto;
+    text-align: Center;
+    font-style: italic;
+    font-size: 25px;
+    background: #808080;
+    height: 45px;
+    color: #fff;
+}
+
+.footer {
+    position: fixed;
+    left: 0 !important;
+    bottom: 0 !important;
+    width: 100% !important;
+    background-color: #808080 !important;
+    color: #fff !important;
+    text-align: center !important;
+    z-index: 10 !important;
+}
+
+.footer a {
+    text-decoration: none;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+    color: #daa520;
+    transition: color 1s ease-in-out;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 15vw;
+}
+
+.header h2 {
+    color: #fff;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.list-nav {
+    background: #fff;
+}
+
+.list-1 > li {
+    margin: auto;
+    transform: translate(40%, 40%);
+}
+
+.list-2 > li {
+    margin: auto;
+    transform: translate(45%, 45%);
+    white-space: nowrap;
+}
+
+.list-1 > h2 {
+    text-align: center;
+    white-space: nowrap;
+}
+
+.list-2 > h2 {
+   text-align: center;
+}
+
+.list-nav h2 {
+    text-overflow: hidden;
+}

@@ -43,3 +43,35 @@ html,
             text-align: center;
             padding: 10px;
         }
+
+    .menu ul {
+        margin: 0;
+        padding:0;
+        position: absolute;
+        top: 0; 
+        bottom: 0;
+        float: left;
+        vertical-align: middle;
+        margin: 0 auto;
+        text-align: middle;
+        font-size: 25px;
+}
+         
+    .menu li {
+        list-style: none; 
+        margin: 10px;
+        display: inline;
+        color: #fff;
+}
+    .menu li, a {
+        padding: 5px 10px; 
+        margin:0;
+        border: 0px solid #f00; 
+        text-decoration: none;
+        color: #fff;
+}   
+    .menu li a:hover {
+        color: rgb(72, 61, 139);
+        text-decoration: underline;
+        transition: all 500ms ease-in-out;
+}
