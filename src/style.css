@@ -6,6 +6,7 @@ html,
         body {
             background: #262626;
             font-family: "sans-serif" sans-serif;
+            overflow: auto;
         }
 
         .main-container h2 {
@@ -74,4 +75,26 @@ html,
         color: rgb(72, 61, 139);
         text-decoration: underline;
         transition: all 500ms ease-in-out;
+}
+
+.block {
+    position: fixed;
+    bottom: 3;
+    right: 13px;
+    border: 3px solid #f1f1f1;
+    z-index: 0;
+    width: 200px;
+    height: 300px;
+    text-align: center;
+    background: #fff;
+}
+
+#disable {
+    color: blue;
+    word-spacing: 0;
+    cursor: pointer;
+}
+
+#disable:hover {
+    text-decoration: underline;
 }
